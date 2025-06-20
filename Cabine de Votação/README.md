@@ -1,0 +1,1 @@
+Este é um simples programa em Java que simula uma cabine de votação. Ele solicita a idade do usuário e, com base nela, informa se o voto é obrigatório, facultativo ou se o usuário ainda não pode votar, conforme as regras eleitorais brasileiras.
