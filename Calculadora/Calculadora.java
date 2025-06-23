@@ -43,7 +43,11 @@ public class Calculadora {
 				System.out.print("Adicione mais um número: ");
 				num2 = entrada.nextDouble();
 				double div = num / num2;
-				System.out.println(num+" dividido por "+num2+" é igual a "+div+".");					
+					if (num2 == 0) {
+						System.out.println("Impossível dividir por zero.");
+					} else {
+						System.out.printf(num+" dividido por "+num2+" é igual a %.2f",div,".");	
+					}
 			} else if (selecao == 5) {
 				System.out.print("Adicione um número: ");
 				num = entrada.nextDouble();
@@ -55,14 +59,17 @@ public class Calculadora {
 				System.out.print("Adicione um número: ");
 				num = entrada.nextDouble();
 				double raiz = Math.sqrt(num);
-				System.out.println("A raíz quadrada de "+num+" é igual a "+ raiz+".");				
+				if (raiz < 0) {
+					System.out.println("Essa calculadora não calcula raízes complexas.");
+				} else {
+					System.out.printf("A raíz quadrada de "+num+" é igual a %.2f", raiz,".");
+				}				
 			} else if (selecao == 7) {
 				System.out.println("Obrigado por usar a calculadora.");
 				System.exit(0);
 			} else {
 				System.out.println("Entrada inválida");
 			}
-
 		}
 	}
 }
