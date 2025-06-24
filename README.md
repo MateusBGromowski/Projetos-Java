@@ -1,9 +1,6 @@
-Este repositório reúne diversos projetos desenvolvidos em 
-Java como parte dos meus estudos em programação.
-Cada pasta contém um projeto individual, com código-fonte e finalidade específica.
+Este projeto Java imprime todos os números de 0 a 100 que são múltiplos de 3 ou 5
 
-Meus atuais objetivos
-- Consolidar lógica de programação com Java
-- Praticar estruturas de decisão, repetição e orientação a objetos
-- Criar miniaplicações funcionais em modo console
-- Evoluir com projetos de dificuldade progressiva
+Conceitos aplicados
+-Estrutura de repetição (for)
+-Operadores aritméticos e lógicos (%, ==, ||)
+-Impressão formatada com System.out.printf
