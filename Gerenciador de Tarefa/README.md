@@ -1,8 +1,9 @@
 Gerenciador de Tarefa em Java
 	Este é um simples projeto em Java que simula um gerenciador de tarefas via terminal. É ideal para quem está começando a aprender estruturas condicionais, loops e entrada de dados.
 
-💡 Funcionalidades
-	Criar uma tarefa
+Funcionalidades
+	
+ 	Criar uma tarefa
 
 	Visualizar a tarefa atual e seu status (concluída ou não)
 
@@ -13,7 +14,8 @@ Gerenciador de Tarefa em Java
 	Sair do programa
 
 Conceitos Usados
-	Scanner para entrada de dados
+	
+ 	Scanner para entrada de dados
 
 	Estrutura de repetição while
 
